@@ -3,6 +3,10 @@
 http://mirrors.163.com/    
 
 
+https://opsx.alibaba.com/mirror   
+
+
+
 Ubuntu18.04：
 
 
