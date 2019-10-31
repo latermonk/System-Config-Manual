@@ -8,10 +8,17 @@ apt install samba
 
 ```
 
-
+Add:
 ```
- smbpasswd -a root
+[www]
+	path = /home/www
+	public = yes
+	writeable = yes
+	create mask = 0644
+	directory mask = 0755
 
  
 ```
 
+to:
+*** /etc/samba/smb.conf ***
