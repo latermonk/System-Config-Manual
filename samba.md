@@ -20,5 +20,5 @@ Add:
  
 ```
 
-to:
+to:        
 *** /etc/samba/smb.conf ***
