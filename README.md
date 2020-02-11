@@ -19,6 +19,19 @@ https://developer.aliyun.com/mirror
 #  Linux性能优化工具
 
 
+##  磁盘IO
+```
+iostat
+```
+
+```
+iotop
+```
+
+
+
+
+
 新建一个1G的文件
 ```
 dd if=/dev/zero of=/tem/test bs=1M count=1024 
