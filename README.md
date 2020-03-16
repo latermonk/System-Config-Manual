@@ -38,3 +38,13 @@ dd if=/dev/zero of=/tem/test bs=1M count=1024
 
 ```
 
+
+
+# k8s cluster 
+
+```
+export DEBIAN_FRONTEND=noninteractive
+
+```
+
+
