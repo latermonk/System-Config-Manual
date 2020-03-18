@@ -1,7 +1,7 @@
 maintain a  Linux  config library
 
 
-# Docker Ui Porttainer
+# Docker UI Portainer
 
 ```
 docker volume create portainer_data
@@ -20,6 +20,14 @@ for i in `seq 0 99`;do docker run -itd -p 80$i:80 nginx:latest ;done
 查看100台Nginx容器的IP地址；
 for i in $(docker ps -aq);do echo $i; docker inspect $i|grep -i ipaddr|tail -1|awk -F\" '{print $4}';done|sed 'N;s/\n/ /g'
  ```
+
+
+## 推送到私有仓库中之后如何查看
+```
+curl -XGEThttp://192.168.1.8:5000/v2/_catalog
+
+```
+
 
 
 #  Command Proxy install 
