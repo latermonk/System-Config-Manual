@@ -13,6 +13,13 @@ docker run -d -p 9000:9000 -p 8000:8000 --name portainer --restart always -v /va
  https://portainer.readthedocs.io/en/latest/deployment.html
  
  
+ ##  创建100台Docker
+ ```
+ 启动100台Nginx容器；
+for i in `seq 0 99`;do docker run -itd -p 80$i:80 nginx:latest ;done
+查看100台Nginx容器的IP地址；
+for i in $(docker ps -aq);do echo $i; docker inspect $i|grep -i ipaddr|tail -1|awk -F\" '{print $4}';done|sed 'N;s/\n/ /g'
+ ```
 
 
 #  Command Proxy install 
