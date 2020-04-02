@@ -4,6 +4,12 @@ http://mirror.azk8s.cn/
 
 
 
+http://mirror.azure.cn/
+
+
+
+
+
 
 maintain a  Linux  config library
 
