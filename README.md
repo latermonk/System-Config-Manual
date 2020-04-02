@@ -1,3 +1,10 @@
+#  Mirror  docker hub
+
+http://mirror.azk8s.cn/
+
+
+
+
 maintain a  Linux  config library
 
 
