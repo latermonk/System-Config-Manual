@@ -31,7 +31,11 @@ vim /etc/docker/daemon.json
 }
 ```
 
-
+```
+ systemctl daemon-reload
+ systemctl enable 
+ systemctl restart
+ 
  
  
 ## INSTALLPORTAINER
