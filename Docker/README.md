@@ -7,12 +7,10 @@ https://docs.docker.com/install/
 ```
  curl -fsSL https://get.docker.com -o get-docker.sh
  bash  get-docker.sh
+```
  
  
- ```
- 
- 
- ##  CHANGE DOCKER HUB  MIRROR 
+##  CHANGE DOCKER HUB  MIRROR 
  
  
 ```
@@ -29,14 +27,12 @@ vim /etc/docker/daemon.json
 }
 ```
 
-```
 
 ```
  systemctl daemon-reload
  systemctl enable 
  systemctl restart
- 
- ```
+```
  
  
  
