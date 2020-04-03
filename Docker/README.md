@@ -16,8 +16,6 @@ https://docs.docker.com/install/
  
  
 ```
-
-
 touch /etc/docker/daemon.json
 
 
@@ -32,9 +30,14 @@ vim /etc/docker/daemon.json
 ```
 
 ```
+
+```
  systemctl daemon-reload
  systemctl enable 
  systemctl restart
+ 
+ ```
+ 
  
  
  
