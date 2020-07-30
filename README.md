@@ -1,3 +1,10 @@
+#  huawei MIRRORS 
+
+https://mirrors.huaweicloud.com/
+
+
+
+
 #  Mirror  docker hub
 
 http://mirror.azk8s.cn/
