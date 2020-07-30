@@ -1,4 +1,4 @@
-#  huawei MIRRORS 
+#  huaweiCloud MIRRORS 
 
 https://mirrors.huaweicloud.com/
 
