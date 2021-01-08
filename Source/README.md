@@ -1,3 +1,11 @@
+#  配置阿里云源
+```
+wget  https://raw.githubusercontent.com/latermonk/System-Config-Manual/master/Source/sources.list-alicloud-ubuntu18.04
+
+```
+
+
+
 # yum-apt-config   
 
 http://mirrors.163.com/    
