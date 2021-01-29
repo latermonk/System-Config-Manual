@@ -1,3 +1,20 @@
+# REDIS docker
+
+https://hub.docker.com/_/redis
+
+https://github.com/bitnami/bitnami-docker-redis
+
+
+
+```
+
+docker run --name some-redis -d redis
+
+```
+
+
+
+
 # MYSQL DOCKER 
 
 ```
