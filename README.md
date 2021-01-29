@@ -10,6 +10,10 @@ https://github.com/bitnami/bitnami-docker-redis
 
 docker run --name some-redis -d redis
 
+
+docker run --name redis -e ALLOW_EMPTY_PASSWORD=yes bitnami/redis:latest
+
+
 ```
 
 
