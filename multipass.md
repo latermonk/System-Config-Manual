@@ -1,5 +1,18 @@
+# INSTALL 
+```
+sudo snap install  multipass 
 
-#  multipass
+```
+
+
+#  multipass find
+#  multipass list
+#  
+
+
+#  Refererce
+
+
 
 https://multipass.run/
 
