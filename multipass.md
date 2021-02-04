@@ -4,6 +4,8 @@ sudo snap install  multipass
 
 ```
 
+![muti](_image/muti.png)
+
 
 #  multipass find
 #  multipass list
