@@ -28,7 +28,7 @@ make && make install
 inotifywait -rm /root/aaa/
 ```
 
-###  监控脚本
+###  监控脚本 watch.sh
 
 ```
 #!/bin/bash
@@ -39,6 +39,14 @@ WAIT_DIR=${1-/tmp}
         echo $DIR $FILE $EVENT $TIME
 done
 ```
+
+
+
+```
+#!/bin/bash
+/usr/local/inotify/bin/inotifywait -mrq --timefmt '%y-%m-%d %H:%M' --format '%T %w%f %e' -e modify,delete,create,attrib,move,open --outfile '/usr/local/inotify/shell/inotify.log'
+```
+
 **使用方法**
 
 
