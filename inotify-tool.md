@@ -21,7 +21,45 @@ make && make install
 
 ```
 
+##  使用
 
+###  监控文件夹
+```
+inotifywait -rm /root/aaa/
+```
+
+###  监控脚本
+
+```
+#!/bin/bash
+WAIT_DIR=${1-/tmp}
+/usr/local/inotify/bin/inotifywait -qmre attrib,modify,move,create,delete $WAIT_DIR --format '"%w" "%f" "%e" "%T"' --timefmt='%F_%T' \
+        | while read DIR FILE EVENT TIME ;do
+ 
+        echo $DIR $FILE $EVENT $TIME
+done
+```
+**使用方法**
+
+
+```
+./watch.sh   /root/aaa
+```
+
+
+
+#   Ubuntu安装方法
+
+```
+sudo apt update
+sudo apt install inotify-tools -y
+```
+
+#  CentOS安装方法
+
+```
+yum install inotify-tools -y
+```
 
 
 
