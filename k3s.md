@@ -53,3 +53,11 @@ k3d cluster create demo --servers 3 --agents 5
 ```
 
 
+```
+You can now use it like this:
+
+
+kubectl config use-context k3d-demo
+kubectl cluster-info
+```
+
