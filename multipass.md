@@ -1,3 +1,10 @@
+#  Graphical desktop in Multipass
+
+https://discourse.ubuntu.com/t/graphical-desktop-in-multipass/16229   
+
+
+
+
 # INSTALL 
 ```
 sudo snap install  multipass 
