@@ -1,0 +1,11 @@
+#!/usr/bin/expect -f
+##Receive the first parameter and set the IP
+ set ip [ lindex $argv 0 ]  
+ set password zaq1XSW2  
+ set timeout 5
+ spawn ssh-copy-id root@$ip  
+ expect {  
+ "*yes/no" { send "yes\r"; exp_continue}  
+ "*password:" { send "$password\r" }  
+ }
+expect eof  
